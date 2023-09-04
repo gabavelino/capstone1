@@ -5,7 +5,25 @@
 	box-sizing: border-box;
 }
 
-/*Google Font*/
+
+@media (min-width: 1200px) {
+  
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Add a background image */
 body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto;
